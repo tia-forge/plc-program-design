@@ -2,9 +2,9 @@
 name: plc-program-design
 slug: plc-program-design
 displayName: PLC 程序设计（需求 → IO → 模块 → SCL → 验收）
-version: 1.0.0
+version: 1.0.1
 summary: 一句「料到了就推一下」，走成能验收的程序：五张表、四道闸，缺一张不许进下一步。
-description: 按工程顺序设计 PLC 程序（以博途 SCL 为例，IEC 61131 通用）：需求与动作矩阵、IO 点位表与地址规划、按设备/工艺/调度三层拆分模块与接口、SCL 状态机实现、编译与仿真验收。当用户说"给我做个 PLC 程序""这条线怎么写""帮我设计 IO 表""程序怎么拆块""AI 写的 PLC 代码怎么验收"时使用。可独立使用：落进真实博途工程时才需要 TiaLink 网关，不装博途也能用云仿真跑完用例。 In English — PLC programming by design, five stages with a gate at each: requirement and action matrix, IO point list and address plan, module/interface decomposition (device / process / scheduling layers), SCL state-machine implementation, and a four-gate acceptance chain (compile, interface consistency, simulation cases, change-impact regression). Use when asked to design a PLC program, draft an IO list, decide how to split blocks, or verify AI-written PLC code.
+description: 按工程顺序设计 PLC 程序（以博途 SCL 为例，IEC 61131 通用）：需求与动作矩阵、IO 点位表与地址规划、按设备/工艺/调度三层拆分模块与接口、SCL 状态机实现、编译与仿真验收。当用户说"给我做个 PLC 程序""这条线怎么写""帮我设计 IO 表""程序怎么拆块""AI 写的 PLC 代码怎么验收"时使用。可独立使用：落进真实博途工程时才需要 TiaLink 网关，不装博途也能用云仿真跑完用例。 In English — PLC programming by design, five stages, each gated — requirement and action matrix, IO point list and address plan, module/interface decomposition (device / process / scheduling layers), SCL state-machine implementation, and a four-gate acceptance chain (compile, interface consistency, simulation cases, change-impact regression). Use when asked to design a PLC program, draft an IO list, decide how to split blocks, or verify AI-written PLC code.
 license: CC-BY-4.0
 tags: [PLC, SCL, 博途, 博图, TIA Portal, 程序设计, PLC编程, IO表, 状态机, 验收]
 homepage: https://tia.hubwiz.com/tia-link?utm_source=skillhub&utm_medium=skill
